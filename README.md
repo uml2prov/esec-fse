@@ -37,12 +37,12 @@ Here we present a complete description of the rules used to mapping UML Sequence
 
 ##Evaluation dataset
 
-We provide the dataset created in order to apply UML2PROV proposal and analyse the results. This dataset is composed of 5 case studies. 
+In this section we provide the dataset which includes the relevant documents related to the case studies used in "Analysis and Discussion" section. 
 
-* [Seminar] ()
-* [Water]()
+* [Seminar] (https://github.com/uml2prov/esec-fse/tree/master/Seminar)
+* [Water](https://github.com/uml2prov/esec-fse/tree/master/Water)
 * [Model View Controller (MVC)] (https://github.com/uml2prov/esec-fse/tree/master/MVC) 
-* [PhoneCall]()
+* [PhoneCall](https://github.com/uml2prov/esec-fse/tree/master/PhoneCall)
 * [Elevator]()
 
 
