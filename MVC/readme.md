@@ -6,5 +6,5 @@ This case study has been modelled through the following UML Sequence and State M
 
 ##UML Sequence diagrams
 
-
+![](https://github.com/uml2prov/esec-fse/blob/master/MVC/UML%20diagrams/sequenceDiagrams/AddUser.png "Add user UML Sequence diagram")
 
