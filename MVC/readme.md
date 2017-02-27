@@ -10,8 +10,15 @@ This case study has been modelled through the following UML Sequence and State M
 
 ##UML State Machine diagrams
 
+### Model UML State Machine diagram
 ![](https://github.com/uml2prov/esec-fse/blob/master/MVC/UML%20diagrams/statemachineDiagrams/Model.png "Model UML State Machine diagram")
+
+### View UML State Machine diagram
 ![](https://github.com/uml2prov/esec-fse/blob/master/MVC/UML%20diagrams/statemachineDiagrams/View.png "View UML State Machine diagram")
+
+### Controller UML State Machine diagram
 ![](https://github.com/uml2prov/esec-fse/blob/master/MVC/UML%20diagrams/statemachineDiagrams/Controller.png "Controller UML State Machine diagram")
+
+### User UML State Machine diagram
 ![](https://github.com/uml2prov/esec-fse/blob/master/MVC/UML%20diagrams/statemachineDiagrams/User.png "User UML State Machine diagram")
 
