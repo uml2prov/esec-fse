@@ -1,9 +1,12 @@
 # ESEC/FSE - SUPLEMENTARY Material
 
 
+
+##Translation rules
+
 Here we present a complete description of the rules used to mapping UML Sequence Diagrams (SqD) and UML State Diagrams (SMD) to provenance templates. Such rules have been divided into those that deal with SqD, and those that tackle SMD. 
 
-## From Sequence Diagrams to templates
+### From Sequence Diagrams to templates
 
 * SeqR1. The lifeline representing the sender of a message is mapped to a PROV agent, whose type is given by the name of its class. 
 
@@ -15,7 +18,7 @@ Here we present a complete description of the rules used to mapping UML Sequence
 
 * SeqR5. In PROV two relationships with the form (B, prov:used, A) and (C, prov:wasGeneratedBy, B) (see SeqR3 and SeqR4, respectively), have to be enriched with a new direct relationship between (C, prov:wasDerivedFrom, A) to express the dependency of C and A. This structure refers to a provenance construction called Use-generate-derive triangle, which encloses the three elements involvedsadf
 
-## From State Machine Diagrams to templates
+### From State Machine Diagrams to templates
 
 * StR1. The object of a transition is mapped to a PROV agent, with the type attribute given by the name of the object's class. Furthermore, the object's state machine is represented as a PROV entity (we note that it has a similar tranlation to a SqD's lifeline). We create an entity related to the object's state machine to have an element representing the umbrella for the object's concret states. Both the PROV agent representing the object and the PROV entity representing the object's state machine are related by means of prov:wasAttributedTo.
 
