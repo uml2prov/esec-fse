@@ -1,12 +1,9 @@
-ESEC/FSE
-
-
-SUPLEMENTARY Material
+# ESEC/FSE - SUPLEMENTARY Material
 
 
 Here we present a complete description of the rules used to mapping UML Sequence Diagrams (SqD) and UML State Diagrams (SMD) to provenance templates. Such rules have been divided into those that deal with SqD, and those that tackle SMD. 
 
-From Sequence Diagrams to templates
+## From Sequence Diagrams to templates
 
 SeqR1. The lifeline representing the sender of a message is mapped to a PROV agent, whose type is given by the name of its class.
 
