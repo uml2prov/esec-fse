@@ -1,0 +1,19 @@
+document
+bundle exe:bundle1
+prefix u2p <http://uml2prov.unirioja.es/>
+prefix exe <http://example.org/>
+
+agent(exe:Door@4439f31e,[prov:type = 'u2p:Door'])
+entity(exe:Door@4439f31e_0,[prov:type = 'u2p:StateMachine'])
+wasAttributedTo(exe:Door@4439f31e_0, exe:Door@4439f31e)
+entity(exe:Door@4439f31e_2,[prov:type = 'u2p:Door', u2p:state = 'u2p:Opened'])
+specializationOf(exe:Door@4439f31e_2,exe:Door@4439f31e_0)
+wasGeneratedBy(exe:Door@4439f31e_2,exe:open_1,-)
+wasDerivedFrom(exe:Door@4439f31e_2, exe:Door@4439f31e_1)
+entity(exe:Door@4439f31e_1,[prov:type = 'u2p:Door', u2p:state = 'u2p:Closed'])
+wasInvalidatedBy(exe:Door@4439f31e_1,exe:open_1,-)
+activity(exe:open_1,2017-02-27T18:44:51.000+01:00,2017-02-27T18:44:51.000+01:00,[prov:type = 'u2p:open'])
+used(exe:open_1,exe:Door@4439f31e_1,-)
+specializationOf(exe:Door@4439f31e_1,exe:Door@4439f31e_0)
+endBundle
+endDocument
