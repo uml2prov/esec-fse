@@ -25,7 +25,7 @@
                     specializationOf(var:Performing,var:object)
                 
                     
-                        entity(var:target, [prov:type='u2p:Seminar' ,u2p:state='exe:State'])
+                        entity(var:target, [prov:type='u2p:Seminar' ,u2p:state='exe:Enroling'])
                         hadMember(var:Performing, var:target)
                         wasGeneratedBy(var:target, var:event, -)
                         

@@ -24,7 +24,7 @@
                     entity(var:Performing, [prov:type='u2p:Seminar', u2p:state='exe:Performing'])
                     specializationOf(var:Performing,var:object)
                 
-                    entity(var:source, [prov:type='u2p:Seminar' , u2p:state='exe:State1'])
+                    entity(var:source, [prov:type='u2p:Seminar' , u2p:state='exe:Studing'])
                     wasInvalidatedBy(var:source, var:event, -)
 
                     hadMember(var:Performing, var:source)
