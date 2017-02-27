@@ -11,7 +11,7 @@ Such a case study has been modelled through the following UML Sequence and State
 
 ##UML Sequence diagrams
 
-![](https://github.com/uml2prov/esec-fse/blob/master/Water/UML%20diagrams/sequenceDiagrams/waterPhases.png "Water phases UML Sequence diagram")
+![](https://github.com/uml2prov/esec-fse/blob/master/Water/UML%20diagrams/sequenceDiagrams/waterPhase.png "Water phases UML Sequence diagram")
 
 ##UML State Machine diagrams
 
