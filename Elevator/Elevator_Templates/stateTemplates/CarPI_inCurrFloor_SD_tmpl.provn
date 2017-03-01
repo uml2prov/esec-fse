@@ -7,7 +7,7 @@
                 prefix tmpl <http://openprovenance.org/tmpl#>
                 prefix var <http://openprovenance.org/var#>
                 prefix exe <http://example.org/>
-                prefix u2p <http://uml2prov.unirioja.es/>
+                prefix u2p <http://uml2prov.example.org/>
     
                     bundle exe:bundle1
                        agent(var:objectSMD, [prov:type='u2p:CarPositionIndicator'])
