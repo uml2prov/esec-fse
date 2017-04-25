@@ -6,7 +6,7 @@ In this page, we present supporting material of the paper entitled "UML2PROV: Au
 * [Evaluation dataset] (https://github.com/uml2prov/esec-fse/blob/master/README.md#evaluation-dataset)
 
 
-##Translation rules
+## Translation rules
 
 Here we present a complete description of the rules used to mapping UML Sequence Diagrams (SqD) and UML State Diagrams (SMD) to provenance templates. Such rules have been divided into those that deal with SqD, and those that tackle SMD. 
 
@@ -35,7 +35,7 @@ Here we present a complete description of the rules used to mapping UML Sequence
 * Str5. The relationship between the _object_ whose behaviour is modelled and its states depend on whether the _transition_ is enclosed in a _composite_ _state_ or not. If the _transition_ is enclosed, in addition to create a PROV __entity__ representing the _composite_ _state_ (StR3), we register such a _state_ as belonging to the _object_'s _state machine_ by means of the __prov:specializationOf__ relationship. Additionally, each PROV __entity__ representing an enclosed state is directly related with the PROV __entity__ representing the _composite_ _state_ through __prov:hadMember__. It allows us to assert that each substate "is a member of" the _composite_ _state_. In contrast, if the _transition_ is not enclosed, we register each _state_ which composes the _transition_ as belonging to the _object_'s _state machine_ by means of the __prov:specializationOf__ relationship. 
 
 
-##Evaluation dataset
+## Evaluation dataset
 
 In this section we provide the dataset which includes the relevant documents related to the case studies used in "Analysis and Discussion" section. 
 
